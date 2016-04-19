@@ -1,0 +1,29 @@
+.wrap{	
+	width:400px;
+	height:200px;
+	background-color:#ccc;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	overflow:hidden;
+	position:relative;
+}
+.sub{
+	position:absolute;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background-color:#fc0;
+	left:-50px;
+	top:-50px;
+}
+.sup{
+	position:absolute;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background-color:#fc0;
+	right:-50px;
+	bottom:-50px;
+}
